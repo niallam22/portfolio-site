@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import bookerInt from "@/public/bookerInt.gif";
+import castingCarmina from "@/public/castingCarmina.gif"
+import lottieHomes from "@/public/lottieHomes.gif"
 
 export const links = [
   {
@@ -52,7 +55,7 @@ export const experiencesData = [
   },
   {
     title: "Full-Stack Engineer",
-    location: "Houston, TX",
+    location: "London, UK",
     description:
       "I'm now a full-stack engineer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
@@ -62,25 +65,50 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Lazy Bones Dog Toys",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A headless front-end e-commerce website selling all things dog toys. Complete with stripe payments, responsive design, animations and custom themes.",
+    tags: ["React", "Next.js", "TypeScript", "Framer Motion", "Tailwind", "Prisma", "Stripe"],
     imageUrl: corpcommentImg,
+    liveHref: "https://www.lazybones.dog/",
+    gitHubHref: "https://github.com/niallam22/ecommerce-store",
   },
   {
-    title: "rmtDev",
+    title: "E-commerce CMS platform",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A full-stack e-commerce dashboard and CMS platform to manage products, stock and sales across multiple stores.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma"],
     imageUrl: rmtdevImg,
+    liveHref: "https://ecommerce-admin-cms-dashboard.vercel.app/",
+    gitHubHref: "https://github.com/niallam22/ecommerce-admin",
   },
   {
-    title: "Word Analytics",
+    title: "Booker Int.",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A full-stack web app enabling users generate group meeting polls with automatic timezone conversion.",
+    tags: ["JavaScript", "Express", "Node", "MVC", "Tailwind", "MongoDB"],
+    imageUrl: bookerInt,
+    liveHref: "https://booker.cyclic.app/",
+    gitHubHref: "https://github.com/niallam22/booker-international",
+  },
+  {
+    title: "Lottie",
+    description:
+      "A full-stack web app leveraging google's advanced-marker-view to display carehome information.",
+    tags: ["React", "Next.js", "JavaScript", "Tailwind", "MongoDB"],
+    imageUrl: lottieHomes,
+    liveHref: "https://lottiehome.vercel.app/",
+    gitHubHref: "https://github.com/niallam22/lottie",
+  },
+  
+  {
+    title: "Casting Carmina",
+    description:
+      "A virutal space to share Carmina's craft as an actor, writer and coach. Equipped with authentication, an integrated text-editor to create blog posts, animated testimonials a photo gallery and more.",
+    tags: ["React", "JavaScript", "Express", "Node", "MongoDB", "Tailwind",],
+    imageUrl: castingCarmina,
+    liveHref: "https://carmina.cyclic.app/",
+    gitHubHref: "https://carmina.cyclic.app/",
   },
 ] as const;
 
@@ -96,12 +124,7 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Zustand",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
