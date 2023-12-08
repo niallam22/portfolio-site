@@ -1,6 +1,6 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+# Link to portfolio: [Portfolio](https://niallmoore.vercel.app/)
+![Niall Moore Portfolio](portfolio.gif?raw=true "Niall Moore Portfolio")
 
 ## Niall Moore - Portfolio 
 
