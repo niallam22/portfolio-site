@@ -108,7 +108,7 @@ export const projectsData = [
     tags: ["React", "JavaScript", "Express", "Node", "MongoDB", "Tailwind",],
     imageUrl: castingCarmina,
     liveHref: "https://carmina.cyclic.app/",
-    gitHubHref: "https://carmina.cyclic.app/",
+    gitHubHref: "https://github.com/niallam22/carminas-a",
   },
 ] as const;
 
