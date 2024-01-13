@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import lazyBonesStore from "@/public/lazyBonesStore.gif";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import eCommerceAdmin from "@/public/eCommerceAdmin.gif";
 import bookerInt from "@/public/bookerInt.gif";
 import castingCarmina from "@/public/castingCarmina.gif"
 import lottieHomes from "@/public/lottieHomes.gif"
@@ -65,11 +65,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Lazy Bones Dog Toys",
+    title: "Lazy Bones Store",
     description:
       "A headless front-end e-commerce website selling all things dog toys. Complete with stripe payments, responsive design, animations and custom themes.",
     tags: ["React", "Next.js", "TypeScript", "Framer Motion", "Tailwind", "Prisma", "Stripe"],
-    imageUrl: corpcommentImg,
+    imageUrl: lazyBonesStore,
     liveHref: "https://www.lazybones.dog/",
     gitHubHref: "https://github.com/niallam22/ecommerce-store",
   },
@@ -78,7 +78,7 @@ export const projectsData = [
     description:
       "A full-stack e-commerce dashboard and CMS platform to manage products, stock and sales across multiple stores.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma"],
-    imageUrl: rmtdevImg,
+    imageUrl: eCommerceAdmin,
     liveHref: "https://ecommerce-admin-cms-dashboard.vercel.app/",
     gitHubHref: "https://github.com/niallam22/ecommerce-admin",
   },
