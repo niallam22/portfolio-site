@@ -25,23 +25,14 @@ export default function About() {
         <span className="font-medium">full-stack web applications</span> as a freelancer.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a challenge and developing tech solutions for causes that I'm interested in. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, MongoDB, TypeScript and Prisma. 
-        </span>
-        {" "}I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        feeling of finally figuring out a solution to a challenge and developing tech solutions for causes that I'm interested in.
+        {" "}I am always exploring new technologies and currently I am learning about and building with the latest LLMs, Gen AI tool and agentic workflows.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         camping, dancing, and cooking. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">meditation and philosophy</span>. I'm also
         learning how to sing.
       </p>
     </motion.section>
