@@ -1,13 +1,12 @@
+import bookerInt from "@/public/bookerInt.gif";
+import castingCarmina from "@/public/castingCarmina.gif";
+import eCommerceAdmin from "@/public/eCommerceAdmin.gif";
+import lazyBonesStore from "@/public/lazyBonesStore.gif";
+import lottieHomes from "@/public/lottieHomes.gif";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import lazyBonesStore from "@/public/lazyBonesStore.gif";
-import rmtdevImg from "@/public/rmtdev.png";
-import eCommerceAdmin from "@/public/eCommerceAdmin.gif";
-import bookerInt from "@/public/bookerInt.gif";
-import castingCarmina from "@/public/castingCarmina.gif"
-import lottieHomes from "@/public/lottieHomes.gif"
 
 export const links = [
   {
@@ -68,7 +67,15 @@ export const projectsData = [
     title: "Lazy Bones Store",
     description:
       "A headless front-end e-commerce website selling all things dog toys. Complete with stripe payments, responsive design, animations and custom themes.",
-    tags: ["React", "Next.js", "TypeScript", "Framer Motion", "Tailwind", "Prisma", "Stripe"],
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Framer Motion",
+      "Tailwind",
+      "Prisma",
+      "Stripe",
+    ],
     imageUrl: lazyBonesStore,
     liveHref: "https://www.lazybones.dog/",
     gitHubHref: "https://github.com/niallam22/ecommerce-store",
@@ -100,12 +107,12 @@ export const projectsData = [
     liveHref: "https://lottiehome.vercel.app/",
     gitHubHref: "https://github.com/niallam22/lottie",
   },
-  
+
   {
     title: "Casting Carmina",
     description:
       "A virutal space to share Carmina's craft as an actor, writer and coach. Equipped with authentication, an integrated text-editor to create blog posts, animated testimonials a photo gallery and more.",
-    tags: ["React", "JavaScript", "Express", "Node", "MongoDB", "Tailwind",],
+    tags: ["React", "JavaScript", "Express", "Node", "MongoDB", "Tailwind"],
     imageUrl: castingCarmina,
     liveHref: "https://carmina.cyclic.app/",
     gitHubHref: "https://github.com/niallam22/carminas-a",
@@ -113,18 +120,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
+  "Python",
+  "C#",
+  "Angular",
   "React",
   "Next.js",
   "Node.js",
   "Git",
+  "Docker",
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Zustand",
+  "PostgresQL",
   "Express",
-  "Framer Motion",
 ] as const;

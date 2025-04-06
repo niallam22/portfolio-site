@@ -1,14 +1,13 @@
 "use client";
 
-import Image from "next/image";
-import React from "react";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -62,11 +61,19 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Niall.</span> I'm a{" "}
-        <span className="font-bold">full-stack engineer.</span> {" "}{" "}{" "}{" "}{" "}{" "}
-         I enjoy
-        building <span className="italic">full-stack sites & apps</span>. My tech stack is{" "}
-        <span className="underline">TypeScript, Node, Express, C#, React, Next.js, PostgreSQL & MongoDB</span>.
+        <p>
+          <span className="font-bold">Hello, I'm Niall.</span> I'm a{" "}
+          <span className="font-bold">full-stack engineer.</span> I enjoy
+          understanding challenges and building product focused solutions.
+        </p>
+        <p className="pt-10">
+          My tech stack is{" "}
+          <span className="underline">
+            TypeScript, Python, C#, Node, Express, Angular, React, Next.js,
+            PostgreSQL & MongoDB
+          </span>
+          .
+        </p>
       </motion.h1>
 
       <motion.div
